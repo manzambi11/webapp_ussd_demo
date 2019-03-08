@@ -22,6 +22,10 @@ public class Client {
         return postnom;
     }
 
+    public Client(String nom) {
+        this.nom = nom;
+    }
+
     public void setPostnom(String postnom) {
         this.postnom = postnom;
     }
