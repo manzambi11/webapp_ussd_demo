@@ -18,6 +18,14 @@ public class Client {
     private String email;
     private String postnom;
 
+    public String getPostnom() {
+        return postnom;
+    }
+
+    public void setPostnom(String postnom) {
+        this.postnom = postnom;
+    }
+
     public Client() {
     }
 
